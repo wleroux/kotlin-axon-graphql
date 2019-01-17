@@ -1,0 +1,13 @@
+axon:
+  serializer:
+    general: jackson
+    events: jackson
+    messages: jackson
+graphql:
+  servlet:
+    mapping: /graphql
+    enabled: true
+    corsEnabled: true
+graphiql:
+  mapping: /graphiql
+  enabled: true

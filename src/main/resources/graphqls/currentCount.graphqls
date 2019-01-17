@@ -1,0 +1,7 @@
+extend type Query {
+    counter(counterId: String!): Int!
+}
+
+type Subscription {
+    counterSubscription(counterId: String!): Int!
+}
